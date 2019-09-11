@@ -1,3 +1,7 @@
-.main-container > .row{
-    height: 100vh;
+.main-container > .row {
+  height: 100vh;
+}
+
+a:hover {
+  text-decoration: none;
 }
