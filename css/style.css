@@ -1,34 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Open+Sans:wght@300&display=swap");
+
 .main-col {
   display: flex;
   height: 100vh;
   justify-content: center;
   align-items: center;
 }
+
 p {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 0.5rem;
 }
+
 p:last-child {
   margin-bottom: 0;
 }
+
 .main-font {
   font-family: "DM Serif Display", serif;
   font-size: 36px;
 }
+
 button.btn {
   border-radius: 1px;
   padding: 3px 20px;
 }
+
 .social a {
   text-decoration: none;
 }
+
 .social a i::before {
   position: relative;
   transition: bottom ease-in 0.1s;
   bottom: 0;
 }
+
 .social a:hover i::before {
   bottom: 2px;
 }
